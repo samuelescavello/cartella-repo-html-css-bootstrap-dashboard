@@ -41,3 +41,12 @@ main {
 .img-graphic{
     width: 90%;
 }
+
+
+/* mediaquery */
+
+@media screen and (max-width:576px){
+    .none-table{
+        display: none;
+    }
+}
