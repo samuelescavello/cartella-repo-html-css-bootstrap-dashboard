@@ -2,6 +2,10 @@
     border: 1px solid red;
 }
 
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 /* structure */
 
 nav{
@@ -30,4 +34,8 @@ main {
     width: 30px;
     height: 30px;
     border-radius: 50%;
+}
+
+.img-graphic{
+    width: 90%;
 }
