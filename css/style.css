@@ -17,6 +17,8 @@ nav{
     height: calc(100% - 70px);
     background-image: url(/img/sidebar-bg.png);
     margin-top: 70px;
+    background-color: #051E34;
+    color: white;
 }
 
 main {
@@ -27,7 +29,7 @@ main {
 }
 
 .header{
-    background-color: blue;
+    background-color: #1B72E8;
 }
 
 .table-img{
