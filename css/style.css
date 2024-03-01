@@ -6,10 +6,15 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+li{
+    list-style: none;
+}
+
 /* structure */
 
 nav{
     height: 70px;
+    background-color:white;
 }
 
 #sidebar {
@@ -42,11 +47,44 @@ main {
     width: 90%;
 }
 
+.logo-small-nav{
+    width: 50px;
+}
+
+.fa-bell{
+    color: rgb(255, 123, 0);
+}
+
+.logo-small-nav{
+    display: none;
+}
+
+.ss-nav-right{
+    width: auto;
+}
 
 /* mediaquery */
 
 @media screen and (max-width:576px){
     .none-table{
         display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    .logo-small-nav{
+        display: block;
+    }
+
+    .logo-big-nav{
+        display: none;
+    }
+
+    .ss-nav-right ul>*:not(:last-child){
+        display: none;
+    }
+
+    .ss-a-bell{
+        padding-left: 0px;
     }
 }

@@ -20,7 +20,35 @@
 
 <body>
     <div id="wrapper" class="vh-100 d-flex wp-debug ">
-        <nav class="fixed-top bg-info ss-debug">Navigation</nav>
+        <nav class="fixed-top ss-debug d-flex align-items-center ">
+            <div class="d-flex w-100 align-items-center justify-content-between ">
+                <img src="img/logo.svg" alt="" class="logo-big-nav"> 
+                <img src="img/mobile-logo.png" alt="" class="logo-small-nav">
+                <div class=" w-100  mx-3 ">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control" placeholder="Prova a cercare lezioni di laravel" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                </div>
+                <div class="ss-nav-right">
+                    <ul class="d-flex my-auto ss-ul">
+                        <li class="pe-3 "><i class="fa-solid fa-list"></i></li>
+                        <li class="pe-3 "><i class="fa-solid fa-circle-question"></i></li>
+                        <li class="pe-3 "><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                        <li class="pe-3"><div class="dropdown">
+                            <a class="ss-abell" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Invio</a></li>
+                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                          </div></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div id="sidebar" class="ss-debug">Sidebar</div>
         <main class="ss-debug">
             <div class="header">
