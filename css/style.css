@@ -73,18 +73,6 @@ main {
     line-height: 21px;
 }
 
-.ss-left{
-    min-width: 250px;
-}
-
-.ss-mid{
-    min-width: 250px;
-}
-
-.ss-right{
-    min-width: 250px;
-}
-
 /* mediaquery */
 
 @media screen and (max-width:576px){
@@ -112,5 +100,9 @@ main {
 
     .none-header{
         display: none;
+    }
+
+    .ss-head{
+       flex-direction: column; 
     }
 }
