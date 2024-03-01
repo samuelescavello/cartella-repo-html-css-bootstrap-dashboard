@@ -63,6 +63,28 @@ main {
     width: auto;
 }
 
+.ss-badge{
+    background-color: #165BBA;
+}
+
+.ss-circle{
+    width: 30px;
+    height: 30px;
+    line-height: 21px;
+}
+
+.ss-left{
+    min-width: 250px;
+}
+
+.ss-mid{
+    min-width: 250px;
+}
+
+.ss-right{
+    min-width: 250px;
+}
+
 /* mediaquery */
 
 @media screen and (max-width:576px){
@@ -86,5 +108,9 @@ main {
 
     .ss-a-bell{
         padding-left: 0px;
+    }
+
+    .none-header{
+        display: none;
     }
 }
