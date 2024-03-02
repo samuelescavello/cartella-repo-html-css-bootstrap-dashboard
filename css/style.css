@@ -73,13 +73,25 @@ main {
     line-height: 21px;
 }
 
-/* mediaquery */
-
-@media screen and (max-width:576px){
-    .none-table{
-        display: none;
-    }
+.offcanvas.offcanvas-end{
+    width: 50%;
 }
+
+.ss-p-check{
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+#sidebar ul li{
+    width: 70px;
+}
+
+#sidebar ul li:hover{
+    background-color: rgba(128, 128, 128, 0.532);
+    cursor: pointer;
+}
+
+/* mediaquery */
 
 @media screen and (max-width:768px){
     .logo-small-nav{
@@ -104,5 +116,19 @@ main {
 
     .ss-head{
        flex-direction: column; 
+    }
+
+    .offcanvas.offcanvas-end{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:576px){
+    .none-table{
+        display: none;
+    }
+
+    .offcanvas.offcanvas-end{
+        width: 100%;
     }
 }
